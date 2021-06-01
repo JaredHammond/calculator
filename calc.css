@@ -1,23 +1,24 @@
 .container {
     background-color: lightslategray;
-    width: 400px;
-    height: 600px;
-    margin: 50px auto ;
+    width: 300px;
+    height: 400px;
+    margin: 150px auto ;
     border-radius: 10px;
     display: grid;
-    padding: 40px;
+    padding: 20px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 3fr repeat(5, 1fr);
+    grid-template-rows: 1.5fr repeat(5, 1fr);
 }
 
 .screen {
     grid-column: 1 / 5;
     background-color: rgb(170, 170, 142);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: end;
-    font-size: 25px;
+    font-size: 50px;
     font-family: 'Overpass Mono', monospace;
     color:rgb(66, 65, 65);
+    padding: 0 5px;
 }
 #clear {
     grid-column: 1 / 2;
@@ -43,8 +44,8 @@
     color: white;
 }
 .button {
-    margin: 5px;
-    border-radius: 8px;
+    margin: 1px;
+    border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
     color: dark rgb(66, 65, 65);
